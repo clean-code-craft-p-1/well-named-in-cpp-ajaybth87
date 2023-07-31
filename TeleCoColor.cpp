@@ -29,7 +29,7 @@ MinorColor ColorPair::getMinor()
 std::string ColorPair::ToString()
 {
 	std::string colorPairStr = MajorColorNames[majorColor];
-	colorPairStr += " ";
+	colorPairStr += "\t\t ";
 	colorPairStr += MinorColorNames[minorColor];
 	return colorPairStr;
 }
