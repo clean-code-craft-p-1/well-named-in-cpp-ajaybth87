@@ -25,6 +25,6 @@ namespace TelCoColorCoder
 
         ColorPair GetColorFromPairNumber(int);
         int GetPairNumberFromColor(MajorColor, MinorColor);
-        void ShowColorCodeReference();
+        int ShowColorCodeReference();
 }
 #endif  // !TELCOCOLOR_H
